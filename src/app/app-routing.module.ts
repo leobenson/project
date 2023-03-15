@@ -9,6 +9,7 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { SingleflComponent } from './pages/singlefl/singlefl.component';
 import { SinglefnComponent } from './pages/singlefn/singlefn.component';
 import { LoginComponent } from './login/login.component';
+import { AddComponent } from './pages/add/add.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,9 @@ const routes: Routes = [
   },
   {
     path:'login',component:LoginComponent
+  },
+  {
+    path:'add',component:AddComponent
   }
 
 ];

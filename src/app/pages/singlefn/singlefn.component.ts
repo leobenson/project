@@ -12,6 +12,6 @@ export class SinglefnComponent {
   let id:any=localStorage.getItem('id')
   let arr=this.d.getfndata();
   this.fl=arr.filter(e=>e.name==id)
-  
+  this.d.yes();
   }
 }

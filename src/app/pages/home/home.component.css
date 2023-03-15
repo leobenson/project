@@ -358,3 +358,14 @@ section {
     grid-row: 4/5;
   }
 }
+.btext{
+  padding-left: 20px;
+  padding-top: 100px;
+  font-family: Lucida Console;
+}
+.bltext{
+  padding-left: 900px;
+  padding-right: 20px;
+  padding-top: 200px;
+  font-family: Lucida Console;
+}

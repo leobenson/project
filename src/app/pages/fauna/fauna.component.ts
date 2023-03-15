@@ -13,5 +13,8 @@ export class FaunaComponent {
     id=localStorage.setItem('id',id)
     this.r.navigate(['/singlefn'])
   }
+ngOnInit(){
+this.d.yes();
+}
   
 }

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { HeroService } from 'src/app/hero.service';
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  selector: 'app-add',
+  templateUrl: './add.component.html',
+  styleUrls: ['./add.component.css']
 })
-export class ContactComponent {
+export class AddComponent {
   constructor(public hero:HeroService){}
 ngOnInit(){
 this.hero.yes();

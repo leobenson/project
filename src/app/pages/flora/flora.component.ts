@@ -14,6 +14,8 @@ gotopage(id:any){
   id=localStorage.setItem('id',id)
   this.r.navigate(['/singlefl'])
 }
-
+ngOnInit(){
+  this.d.yes();
+  }
 
 }

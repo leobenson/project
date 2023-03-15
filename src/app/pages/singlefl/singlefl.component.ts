@@ -12,7 +12,7 @@ ngOnInit(){
 let id:any=localStorage.getItem('id')
 let arr=this.d.getfldata();
 this.fl=arr.filter(e=>e.name==id)
-
-
+this.d.yes();
+  
 }
 }

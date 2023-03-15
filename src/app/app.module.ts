@@ -19,7 +19,8 @@ import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
+import { AddComponent } from './pages/add/add.component'; 
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { FormsModule } from '@angular/forms';
     SingleflComponent,
     SinglefnComponent,
     SignupComponent,
-    LoginComponent
+    LoginComponent,
+    AddComponent
     
   ],
   imports: [
