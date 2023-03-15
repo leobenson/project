@@ -1,0 +1,19 @@
+  
+ <body>
+  <div class="text">
+  <h5>Digital preservation can be seen as all those processes aimed at ensuring the continuity of digital heritage materials for as long as they are needed.The most significant threats to digital continuity concern loss of the means of access. Digital materials cannot be said to be preserved if the means of access have been lost and access becomes impossible. The purpose of preserving digital materials is to maintain accessibility: the ability to access their essential, authentic message or purpose.</h5>  
+  </div>
+   <div class="main">
+    <ul class="cards">
+    <li class="cards_item" *ngFor="let i of fauna">
+      <div class="card"  style="width: 15rem;">
+        <div class="card_image"><img src="{{i.image}}"style="height: 200px; width: 15rem;"></div>
+        <div class="card_content">
+          <h2 class="card_title">{{i.name}}</h2>
+          <a (click)="gotopage(i.name)" class="btn card_btn">Read More</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+</body>
