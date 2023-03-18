@@ -28,16 +28,16 @@
               <div class="screen-body-item">
                 <div class="app-form">
                   <div class="app-form-group">
-                    <input class="app-form-control" placeholder="NAME" value="username">
+                    <input class="app-form-control" placeholder="NAME" [(ngModel)]="username" value="username">
                   </div>
                   <div class="app-form-group">
-                    <input class="app-form-control" placeholder="password" value="password" >
+                    <input type="password" class="app-form-control" placeholder="password" [(ngModel)]="password" value="password" >
                   </div>
                   
                   
                   <div class="app-form-group buttons">
                     <button class="app-form-button" routerLink="/signup">signup</button>
-                    <button class="app-form-button" routerLink="/home">Login</button>
+                    <button class="app-form-button" (click)="login()">Login</button>
                   </div>
                 </div>
               </div>

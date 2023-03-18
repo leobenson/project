@@ -7,15 +7,15 @@
      <form>
        <div class="form-group">
          <label for="exampleInputName">Name</label>
-         <input type="text" name="name" class="form-control"  placeholder="Enter  name " required="required">
+         <input type="text" name="name" class="form-control" placeholder="Enter  name " [(ngModel)]="name" required="required">
        </div>
        <div class="form-group">
          <label for="description" required="required">description</label>
-         <input type="text" name="description" class="form-control"  aria-describedby="emailHelp" placeholder="description">
+         <textarea name="description" class="form-control"  aria-describedby="emailHelp" [(ngModel)]="description" placeholder="description"></textarea>
        </div>
        <div class="form-group">
          <label for="exampleFormControlSelect1">Catagory</label>
-         <select class="form-control" id="exampleFormControlSelect1" name="platform" required="required">
+         <select class="form-control" id="exampleFormControlSelect1" name="platform" [(ngModel)]="platform" required="required">
            <option>flora</option>
            <option>fauna</option>
            </select>
@@ -26,7 +26,7 @@
          <input type="file" name="file">
        </div>
        <hr>
-       <button class="button-3" role="button" routerLink="/add">submit</button>
+       <button class="button-3" role="button" (click)="add()">submit</button>
      </form>
  </div> 
  

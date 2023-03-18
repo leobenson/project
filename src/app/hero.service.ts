@@ -96,7 +96,7 @@ insertData(docRef:any,data:any){
   
   .catch((err) => alert(err))
 
-}
+} 
 
 
   }
